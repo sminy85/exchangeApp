@@ -35,6 +35,25 @@
                 android:orientation="vertical">
             </LinearLayout>
 
+
+
+
+            <LinearLayout
+                android:id="@+id/webcafe"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#e7d50e"
+                android:orientation="vertical">
+                </LinearLayout>
+            <LinearLayout
+                android:id="@+id/myPage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#a8f5c4"
+                android:orientation="vertical">
+            </LinearLayout>
+
+            
         </FrameLayout>
                 <TabWidget
             android:id="@android:id/tabs"
@@ -43,6 +62,6 @@
 
         </TabWidget>
 
-
+        
     </LinearLayout>
 </TabHost>
